@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="uma.css">  
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+    <h1>REGISTRATION FORM</h1>
+    <label for="fname">first_name</labelfor>
+    <input type="text" placeholder="enter  the first name"name="first name"required/><br></br>
+     <label for="Lname">last_name</label>   
+     <input type="text" placeholder="enter  the last name"name="last name"required/><br></br>
+    <label for="pnumber">pnumber</label>   
+     <input type="number" placeholder="enter the phone number"name="pnumber"required/><br></br>
+     <label for="gender">gender</label>
+     <input type="radio" name="gender"id="male" value="male"required/>male
+     <input type="radio" name="gender"id="female" value="female"required/>female<br></br>
+     <label for="email">email</label>
+     <input type="text" placeholder="enter  the email"name="email "required/><br></br>
+     <label for="Date">date</label>
+     <input type="Date"placeholder=""value="date"><br></br>
+     <label for="password">password</label>
+     <input type="text"placeholder="enter the password"name="password"required/><br></br>  
+     <button type="submit">submit</button>
+     
+
+            
+  
+</html>
